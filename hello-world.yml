@@ -1,0 +1,16 @@
+name: first-workflow
+on: push
+branch: main
+jobs:
+  first-job:
+  runs-on: ubuntu-latest
+  steps:
+    - name: print message
+      run: echo "Hello, Github Actions!"
+  second-job:
+  runs-on: ubuntu-latest
+  steps:
+    - name: print message
+      run: echo "Hello, Thisis my secind job"
+
+
