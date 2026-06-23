@@ -9,7 +9,10 @@ jobs:
   steps:
     - name: checkout code
     - uses: actions@chekout@v4
-    
+
     - name: print message
       run: echo"Hello, This is my workflow file"
+
+    - name: say hello
+       run: print("this is my workflow in python language") 
      
